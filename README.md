@@ -14,10 +14,6 @@ The one-click button above clones `nuonuo-888/astrofy`, installs dependencies wi
 
 [![Preview](https://img.shields.io/badge/Preview-4ECCA3?style=for-the-badge&logo=globe&logoColor=white)](https://astrofy.edgeone.app/)
 
-## Demo
-
-View a live demo of [Astrofy](https://astrofy.edgeone.app/)
-
 ## Installation
 
 Run the following command in your terminal
@@ -268,15 +264,6 @@ You can choose among 30 themes available or create your custom theme. See themes
 ## Sitemap
 
 The Sitemap is generated automatically when you build your website in the root of the domain. Please update the `robots.txt` file in the public folder with your site name URL for the Sitemap.
-
-## Deploy
-
-You can deploy your site on your favourite static hosting service such as Vercel, Netlify, GitHub Pages, etc.
-
-The configuration for the deployment varies depending on the platform where you are going to do it. See the [official Astro information](https://docs.astro.build/en/guides/deploy/) to deploy your website.
-
-> **⚠️ CAUTION** </br>
-> The Blog pagination of this template is implemented using dynamic route parameters in its filename and for now this format is incompatible with SSR deploy configs, so please use the default static deploy options for your deployments.
 
 ## Contributing
 
