@@ -6,7 +6,8 @@ import edgeoneAdapter from "@edgeone/astro";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://astrofy-template.edgeone.app',
-  edgeoneAdapter: edgeoneAdapter(),
+  site: 'https://astrofy.edgeone.app',
+  // output: 'static',
+  adapter: edgeoneAdapter(),
   integrations: [mdx(), sitemap(), tailwind()]
 });
